@@ -1,4 +1,21 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  /*набор шрифтов*/
+  --font-size-base: 18px;
+  --font-size-section-title: 18px;
+  --font-size-card-title: 18px;
+  --font-size-card-subtitle: 18px;
+
+  /*набор цветов*/
+  --page-bg-image: url("../images/cover-image-dark.png");
+  --page-bg-color: #000028;
+  --title-bg-color: #ff0070;
+  --title-text-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --primary-title-color: #DB00FF;
+  --section-title-color:var(--accent-color);
+  --link-color: var(--accent-color);
+  --menu-color: #ff0070;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --decorated-zone-color: var(--accent-color);
+}
